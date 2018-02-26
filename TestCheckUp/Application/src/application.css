@@ -1,0 +1,170 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+#welcomePane{
+	
+-fx-background-color : rgb(60, 60, 60) ;
+-fx-border-color : rgb(30, 30, 30) ;
+
+}
+
+#welcomeButton{
+	
+-fx-background-color : rgb(30, 30, 30) ;
+-fx-focus-color : transparent ;
+-fx-faint-focus-color: transparent;
+-fx-text-fill : rgb(200, 200, 200) ;
+
+}
+#welcomeButton:hover{
+	
+-fx-background-color : rgb(40, 40, 40) ;
+-fx-focus-color : transparent ;
+-fx-faint-focus-color: transparent;
+-fx-text-fill :  rgb(100, 150, 200)  ;
+
+}
+#welcomeButton:pressed{
+	
+-fx-background-color : rgb(100, 100, 100) ;
+-fx-focus-color : transparent ;
+-fx-faint-focus-color: transparent;
+-fx-text-fill : rgb(30, 30, 30) ;
+
+}
+
+#mainTabPane{
+	
+-fx-background-color : rgb(60, 60, 60) ;
+-fx-border-color : rgb(30, 30, 30) ;
+
+}
+
+#mainTabPane .tab-header-area .tab-header-background{
+	
+-fx-background-color : rgb(120, 120, 120) ;
+
+}
+
+#mainTabPane .tab{
+	
+-fx-background-color : rgb(50, 50, 50) ;
+-fx-focus-color : transparent ;
+-fx-faint-focus-color: transparent;
+
+}
+
+#mainTabPane .tab:hover {
+	
+-fx-border-style : hidden solid hidden hidden ;
+-fx-border-color : rgb(220, 220, 220);
+-fx-border-width : 1;
+
+}
+
+#mainTabPane .tab:selected{
+	
+-fx-border-style : hidden solid hidden hidden ;
+-fx-border-color : rgb(220, 220, 220);
+-fx-border-width : 2;
+
+}
+
+#mainTabPane .tab:selected .tab-label{
+	
+-fx-text-fill : rgb(100, 150, 200) ;
+
+}
+
+#mainTabPane .tab-label{
+	
+-fx-text-fill : rgb(220, 220, 220) ;
+
+}
+
+.backAnchor{
+	
+-fx-background-color : transparent;
+
+}
+
+#templateBox{
+		
+-fx-background-color : rgb(60, 60, 60) ;
+
+}
+
+#templateBox .text-area{
+
+-fx-focus-color : transparent ;
+-fx-faint-focus-color: transparent;
+
+-fx-border-style:  hidden hidden hidden hidden ;
+
+-fx-text-fill : rgb(150, 250, 100) ; 
+
+}
+
+#templateBox .text-area .content {
+	
+-fx-border-style:  hidden hidden hidden hidden ;
+-fx-background-color:  rgb(50, 50, 50) ;
+}
+
+.questionLabel{
+	
+-fx-text-fill : rgb(100, 150, 250) ; 
+
+}
+
+.goodAnswer{
+	-fx-text-fill : rgb(10, 10, 10) ; 	
+}
+
+.wrongAnswer{
+	-fx-text-fill : rgb(200, 100, 100) ; 	
+}
+
+#tableColumn{
+ -fx-background-color:  rgb(50, 50, 50) ;
+}
+
+#table{
+}
+
+.answerLabel{
+	
+-fx-text-fill : rgb(250, 100, 100) ; 
+
+}
+
+.rightAnswerLabel{
+	
+-fx-text-fill : rgb(100, 250, 100) ; 
+
+}
+
+#statChar{
+}
+
+
+.axis {
+-fx-tick-label-fill: rgb(220, 220, 220)
+}
+
+.number-axis{
+-fx-side: bottom ;
+}
+
+.axis .category{
+-fx-tick-label-fill: black;
+-fx-side: left;
+}
+
+.default-color0.chart-bar { 
+	-fx-bar-fill: rgb(100, 250, 100);
+}
+.default-color1.chart-bar { 
+	-fx-bar-fill:  rgb(250, 100, 100);
+}
+
+
