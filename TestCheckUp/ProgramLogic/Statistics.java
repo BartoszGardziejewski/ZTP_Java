@@ -13,14 +13,14 @@ import java.util.List;
 public class Statistics {
 
 	/**
-	 * This method calculate how much of the answers where correct 
+	 * This method calculates how many of the answers where correct 
 	 * for each question 
 	 * 
 	 * @param questions represents list of questions 
 	 * @param answers represents list of students answers 
 	 * 
-	 * @return array of integers where index represent number of question 
-	 * and integer under that index represent how many of the answer where correct 
+	 * @return array of integers where index represents number of question 
+	 * and integer under that index represents how many of the answers where correct 
 	 * 
 	 */
 	public static int[] calculateRightAnswers(List<Question> questions, List<StudentAnswer> answers) {
@@ -47,7 +47,7 @@ public class Statistics {
 	}
 	
 	/**
-	 * This method calculate how much of the answers where correct 
+	 * This method calculates how many of the answers where correct 
 	 * for given student 
 	 * 
 	 * @param questions represents list of questions 

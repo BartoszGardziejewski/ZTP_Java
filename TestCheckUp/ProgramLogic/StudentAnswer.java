@@ -43,7 +43,7 @@ public class StudentAnswer {
 	}
 	
 	/**
-	 * This method calculates what mark will the student get
+	 * This method calculates which mark will the student get
 	 * based on list of questions
 	 * 
 	 *  @param questions list of questions

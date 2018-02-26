@@ -31,7 +31,7 @@ public class DataLoader {
 	
 	/**
 	 * This method loads students answers from .CSV file. 
-	 * It also perform {@link StudentAnswer#calculateMark(List)} 
+	 * It also performs {@link StudentAnswer#calculateMark(List)} 
 	 * to calculate mark for every loaded student
 	 * 
 	 * @param path represents path to file

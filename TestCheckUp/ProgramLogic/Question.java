@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 /**
  * Question class represents set of question with list of answers
- * and specified which one of theme is right 
+ * and specified which one of them is right 
  * 
  * 
  * @author Bartosz Gardziejewski
@@ -44,7 +44,7 @@ public class Question {
 	/**
 	 * This method checks if given answer is correct
 	 * 
-	 * @param answer is a string that represent answer,
+	 * @param answer is a string that represents the answer,
 	 * but the code letter of the answer is enough for this method 
 	 * 
 	 * @return boolean that answers question "is given answer correct ?"
