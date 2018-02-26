@@ -13,7 +13,7 @@
    <children>
       <BorderPane id="welcomePane">
          <top>
-            <Label alignment="BOTTOM_LEFT" prefHeight="25.0" prefWidth="800.0" text="Prorgam napisany przez Bartosza Gardziejewskiego" textFill="#999999" BorderPane.alignment="CENTER">
+            <Label alignment="BOTTOM_LEFT" prefHeight="25.0" prefWidth="800.0" text="Prorgam napisany został przez Bartosza Gardziejewskiego" textFill="#999999" BorderPane.alignment="CENTER">
                <BorderPane.margin>
                   <Insets />
                </BorderPane.margin>
@@ -22,12 +22,12 @@
          <center>
             <VBox alignment="CENTER" prefHeight="525.0" prefWidth="100.0" BorderPane.alignment="CENTER">
                <children>
-                  <Label text="Witam w programie TestCheckUp." textAlignment="CENTER" textFill="#cccccc">
+                  <Label text="Witam w programie TestCheckUp," textAlignment="CENTER" textFill="#cccccc">
                      <font>
                         <Font size="24.0" />
                      </font>
                   </Label>
-                  <Label text="Który służy do sprawdzania wyników testów." textAlignment="CENTER" textFill="#cccccc">
+                  <Label text="który służy do sprawdzania wyników testów." textAlignment="CENTER" textFill="#cccccc">
                      <font>
                         <Font size="24.0" />
                      </font>
