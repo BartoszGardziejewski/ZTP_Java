@@ -132,9 +132,9 @@ public class Main extends Application {
 	/**
 	 * This method populates data table in UI
 	 * <p>
-	 * @param questions represents collection of Question that define test template
+	 * @param questions represents collection of questions that define test template
 	 * <p>
-	 * @param students represents collection of StudentAnswers
+	 * @param students represents collection of students answers
 	 */
 	private void loadDatatoTable(List<Question> questions,List<StudentAnswer> students){
 	     		
@@ -205,7 +205,7 @@ public class Main extends Application {
 	/**
 	 * This method populates test template in UI
 	 * <p>
-	 * @param questions represents collection of Question that define test template
+	 * @param questions represents collection of questions that define test template
 	 * @see {@link Controller#testTemplate}
 	 */
 	private void loadTestTemplate(List<Question> questions){
@@ -270,9 +270,9 @@ public class Main extends Application {
 	 * {@link  Statistics#calculateRightAnswers(List, List)}
 	 * <p>
 	 * 
-	 * @param questions represents collection of Question that define test template
+	 * @param questions represents collection of questions that define test template
 	 * <p>
-	 * @param students represents collection of StudentAnswers
+	 * @param students represents collection of students answers
 	 * 
 	 * @see Statistics
 	 * @see Controller#statsBarChart
