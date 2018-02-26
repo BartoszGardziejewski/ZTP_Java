@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" scaleShape="false" stylesheets="@application.css" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <TabPane id="mainTabPane" maxHeight="-Infinity" maxWidth="-Infinity" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+            <Tab text="Szablon Testu">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" styleClass="backAnchor">
+                     <children>
+                        <ScrollPane prefHeight="600.0" prefWidth="800.0" styleClass="backAnchor">
+                          <content>
+                            <AnchorPane minHeight="0.0" minWidth="0.0" styleClass="backAnchor">
+                                 <children>
+                                    <VBox id="templateBox" fx:id="testTemplate" fillWidth="false">
+                                       <padding>
+                                          <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+                                       </padding>
+                                    </VBox>
+                                 </children>
+                              </AnchorPane>
+                          </content>
+                        </ScrollPane>
+                     </children>
+                  </AnchorPane>
+              </content>
+            </Tab>
+          <Tab text="Tabela wyników">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0">
+                     <children>
+                        <Pane fx:id="dataTable" prefHeight="575.0" prefWidth="800.0" AnchorPane.leftAnchor="8.0" AnchorPane.topAnchor="8.0">
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </Pane>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+          <Tab text="Statystyki">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <BarChart id="statChar" fx:id="statsBarChart" barGap="1.0" categoryGap="8.0" legendSide="RIGHT">
+                          <xAxis>
+                            <CategoryAxis />  
+                          </xAxis>
+                          <yAxis>        
+                          	<NumberAxis />                  
+                          </yAxis>
+                        </BarChart>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>
