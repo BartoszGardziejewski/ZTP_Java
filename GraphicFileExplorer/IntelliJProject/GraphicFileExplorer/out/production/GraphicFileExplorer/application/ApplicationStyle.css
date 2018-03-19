@@ -1,0 +1,87 @@
+*{
+    color-Grey:rgb(60,60,60);
+    color-DarkGrey:rgb(35,35,35);
+    color-DarkesGrey:rgb(20,20,20);
+    color-LiteGrey:rgb(80,80,80);
+
+    color-LiteBlue:rgb(100,150,200);
+
+    color-LiteRed:rgb(200,100,100);
+
+}
+
+.button-plugin{
+    -fx-background-color: color-DarkesGrey;
+    -fx-text-fill:color-LiteBlue;
+    -fx-background-radius: 4;
+}
+.button-plugin:hover{
+    -fx-background-color: color-DarkGrey;
+}
+.button-plugin:pressed{
+    -fx-background-color: color-LiteBlue;
+    -fx-text-fill:color-DarkesGrey;
+}
+
+.button-exit{
+    -fx-background-color: color-DarkesGrey;
+    -fx-text-fill:color-LiteRed;
+    -fx-background-radius: 8 8 0 0;
+}
+.button-exit:hover{
+    -fx-background-color: color-Grey;
+}
+.button-exit:pressed{
+    -fx-background-color: color-LiteRed;
+    -fx-text-fill:color-Grey;
+}
+
+.pane-background{
+    -fx-background-color: color-DarkGrey;
+
+}
+
+.pane-forground{
+    -fx-background-color: color-Grey;
+    -fx-background-radius: 4;
+
+    -fx-padding: 8;
+}
+
+
+.scroll-pane .viewport{
+    -fx-background-color: color-Grey;
+    -fx-background-radius: 4;
+
+    -fx-padding: 8;
+}
+.scroll-pane .corner{
+    -fx-background-color: transparent;
+}
+.scroll-bar:horizontal,
+.scroll-bar:vertical{
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-radius: 0;
+}
+
+.label-explorer{
+    -fx-background-color: color-Grey;
+    -fx-text-fill: color-LiteBlue;
+    -fx-background-radius: 4;
+}
+
+
+.image-tile{
+    -fx-pref-height: 150;
+    -fx-pref-width: 150;
+    -fx-max-height: 150;
+    -fx-max-width: 150;
+    -fx-background-color: color-DarkGrey;
+    -fx-text-fill: color-LiteBlue;
+}
+.image-tile:hover{
+    -fx-background-color: color-LiteGrey;
+    -fx-text-fill: color-DarkGrey;
+
+}
