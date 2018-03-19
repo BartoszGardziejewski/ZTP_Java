@@ -1,0 +1,106 @@
+* {
+   -fx-color-back: rgb(60,60,60);
+   -fx-color-front: rgb(80,80,80);
+   
+   -fx-color-element: rgb(40,40,40);
+   -fx-color-element-hover: rgb(20,20,20);
+   
+   -fx-color-text-blue: rgb(100,150,200);
+   -fx-color-text-red: rgb(200,100,100);
+   
+   -fx-color-shadow: rgb(15,15,15);
+}
+
+
+.BackgroundPane{	
+	-fx-border-width: 1;
+	-fx-border-color: -fx-color-shadow ;
+	
+	-fx-background-color: -fx-color-back;	
+}
+
+.label{
+	-fx-text-fill: rgb(100,150,200);
+}
+
+.FrontPane {
+	-fx-background-color: -fx-color-front;
+    -fx-background-radius: 8;
+}
+.FrontPane > .viewport{
+	-fx-background-color: transparent;
+}
+
+.MenuButton{
+	-fx-background-color:  -fx-color-element ;
+	-fx-text-fill: -fx-color-text-blue ;
+    -fx-background-radius: 4;
+}
+.MenuButton:hover{
+    -fx-background-color: -fx-color-element-hover;
+}
+.MenuButton:pressed{
+	-fx-background-color: -fx-color-text-blue ;
+	-fx-text-fill: -fx-color-element-hover;	
+}
+.MenuButton:showing{
+	-fx-background-color: -fx-color-text-blue;
+	-fx-text-fill: -fx-color-element ;
+}
+.MenuButton:showing > .label{
+	-fx-text-fill: -fx-color-element ;
+}
+
+.context-menu {
+    -fx-background-color: -fx-color-element;
+}
+
+.MenuButton .label{
+	-fx-text-fill: -fx-color-text-blue ;
+}
+
+.MenuItem{
+	-fx-background-color:  transparent ;
+	-fx-pref-width: 150;
+	
+}
+.MenuItem:hover , .MenuItem:focused{
+	-fx-background-color:-fx-color-element-hover;
+	
+}
+
+.button-exit{
+	-fx-background-color: -fx-color-element ;	
+	-fx-text-fill: -fx-color-text-red ;
+    -fx-background-radius: 4 4 0 0;
+}
+.button-exit:hover{
+	-fx-background-color: -fx-color-element-hover ;
+}
+.button-exit:pressed{	
+	-fx-background-color:-fx-color-text-red ;	
+	-fx-text-fill:  -fx-color-element ;
+}
+
+.box-item .label{
+	-fx-text-fill: -fx-color-text-blue;		
+}
+
+.button-item{	
+	-fx-min-width: 50;
+	-fx-min-height: 50;
+	-fx-pref-width: 150;
+	-fx-pref-height: 150;
+	
+    -fx-effect: dropshadow( gaussian , -fx-color-shadow , 0,0,2,2 );
+	
+	-fx-background-color: -fx-color-element;
+	-fx-text-fill: -fx-color-text-blue ;
+}
+.button-item:hover{	
+	-fx-background-color: -fx-color-element-hover ;	
+}
+.button-item:pressed{	
+	-fx-background-color:  -fx-color-text-blue ;	
+	-fx-text-fill: -fx-color-element ;	
+}

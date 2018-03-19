@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane minHeight="600.0" minWidth="800.0" scaleShape="false" stylesheets="@application.css" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/9.0.1" fx:controller="application.Controller">
+   <children>
+      <BorderPane id="welcomePane">
+         <top>
+            <Label alignment="BOTTOM_LEFT" prefHeight="25.0" prefWidth="800.0" text="Prorgam napisany został przez Bartosza Gardziejewskiego" textFill="#999999" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets />
+               </BorderPane.margin>
+            </Label>
+         </top>
+         <center>
+            <VBox alignment="CENTER" prefHeight="525.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label text="Witam w programie TestCheckUp," textAlignment="CENTER" textFill="#cccccc">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Label text="który służy do sprawdzania wyników testów." textAlignment="CENTER" textFill="#cccccc">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+         </center>
+         <bottom>
+            <Button id="welcomeButton" fx:id="continueButton" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#loadMainWidnow" prefHeight="50.0" prefWidth="800.0" text="Kontynuuj" textAlignment="CENTER" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets />
+               </BorderPane.margin>
+            </Button>
+         </bottom>
+      </BorderPane>
+   </children>
+</AnchorPane>

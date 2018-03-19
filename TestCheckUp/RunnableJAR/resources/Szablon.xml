@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+
+	<question content=" Ile równa się 2+2 " answerCode="A">
+		<answer code="A">A. 4</answer>
+		<answer code="B">B. 2</answer>
+		<answer code="C">C. 5</answer>
+		<answer code="D">D. 22</answer>
+	</question>
+	
+	<question content=" Zółwie to " answerCode="C">
+		<answer code="A">A. Ssaki</answer>
+		<answer code="B">B. Ptaki</answer>
+		<answer code="C">C. Gady</answer>
+		<answer code="D">D. Płazy</answer>
+	</question>
+	
+	<question content=" Bitwa pod Grunwaldem odbyła się w roku " answerCode="B">
+		<answer code="A">A. 1220 </answer>
+		<answer code="B">B. 1410 </answer>
+		<answer code="C">C. 123 </answer>
+		<answer code="D">D. 1540 </answer>
+	</question>
+	
+	<question content=" Symbol Ag oznacza pierwiastek " answerCode="C">
+		<answer code="A">A. glinu </answer>
+		<answer code="B">B. złota </answer>
+		<answer code="C">C. srebra </answer>
+		<answer code="D">D. tlenu </answer>
+	</question>
+	
+	<question content=" Stolica Polski to " answerCode="A">
+		<answer code="A">A. Warszawa </answer>
+		<answer code="B">B. Kraków </answer>
+		<answer code="C">C. Katowice </answer>
+		<answer code="D">D. Polska nie posiada stolicy</answer>
+	</question>
+	
+</form>
